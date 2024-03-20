@@ -1,0 +1,142 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	background: none;
+}
+
+a {
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.nav {
+	width: 980px;
+	height: 90px;
+	margin: 0 auto;
+	padding: 20px 0 0;
+}
+
+.nav_bg {
+	height: 48px;
+	background-color: #fe668f;
+}
+
+.nav_bg ul {
+	width: 980px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.nav_bg a {
+	padding: 0 50px;
+	color: #ffffff;
+	line-height: 48px;
+}
+
+.nav_bg a:hover {
+	background-color: #fe9ab5;
+}
+
+.register {
+	background-color: #fe9ab5;
+}
+
+.banner_img {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.register_form {
+	width: 980px;
+	height: 934px;
+	margin: 0 auto;
+	padding: 0 0 0 150px
+}
+
+.register_form h2 {
+	width: 454px;
+	height: 80px;
+	color: #dd8787;
+	background: url('./images/step.jpg') center right no-repeat;
+	padding-right: 20px;
+	line-height: 80px;
+	font-weight: bold;
+
+}
+
+.hfont {
+	font-size: 20px;
+}
+
+.register_form h3 {
+	color: #dd8787;
+	width: 444px;
+	height: 45.8px;
+	line-height: 45.8px;
+	border-bottom: 1px solid #dd8787;
+}
+
+.register_form .left {
+	width: 120px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #dd8787;
+	text-align: right;
+}
+
+.register_form td {
+	color: #dd8787;
+	font-size: 14px;
+	line-height: 50px;
+	height: 50px;
+}
+
+.register_form .right {
+	height: 29.6px;
+	border: 1px solid #dd8787;
+}
+
+select {
+	width: 171px;
+	border: 1px solid #dd8787;
+	color: #dd8787;
+}
+
+textarea {
+	width: 432px;
+	height: 151px;
+	border: 1px solid #dd8787;
+	padding: 20px;
+	color: #aaaaaa;
+	font-size: 12px;
+}
+
+.btn {
+	background: url('./images/btn.jpg') no-repeat right top;
+	width: 408px;
+	height: 76px;
+	border: none;
+}
+
+.footer {
+	height: 108px;
+	background-color: #fe668f;
+	padding: 40px 0 0;
+}
+
+.footer p {
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 26px;
+}
